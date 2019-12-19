@@ -1,0 +1,37 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 1170px;
+	padding: 0;	
+	margin: 50px auto;
+	display: flex;
+	flex-wrap:wrap;	
+ 	text-align: center;
+}
+.heading {
+	margin: 0 auto;
+	text-align: center; 
+}
+.hamilon {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.car {
+	width: 30%;
+	margin: 5%;
+	margin-bottom: 10px; 
+}
+.car img {
+	border-radius: 50%;
+}
